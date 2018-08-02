@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "First Post!"
+title: "First Post Using Jekyll!"
 date: 2018-08-01
 ---
 I've been burning the midnight oil setting up [Jekyll](www.jekyllrb.com), having used Wordpress for the past several years, and I'm in *love*.  There's something about the sweet simplicity of drafting blog posts in a word editor, with no frills.  Don't need to deal with the complexity of a content management system and getting back to the basics.
