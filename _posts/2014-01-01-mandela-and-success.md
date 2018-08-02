@@ -9,6 +9,6 @@ Often we look to the great heroes of our time for inspiration, and undeniably, N
 
 However, the obituary also chronicled Mandela's three marriages (2 failed).  Politics, his first wife Evelyn said, was his  all-absorbing concern. Winnie, his second wife, remarked that Mandela, belongs to them [the people]. Even the great father of South Africa himself confessed that his children told him once that he was:
 
->> a father to all our people, but you have never had time to be a father to me
+> a father to all our people, but you have never had time to be a father to me
 
 What if this unrivaled commitment is the price for success and grand achievement? Given the choice, would you pay such a price, and more importantly, would you consider this success?
