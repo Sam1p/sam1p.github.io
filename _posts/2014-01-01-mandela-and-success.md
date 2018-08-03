@@ -5,7 +5,7 @@ date: 2014-01-01T01:50:55+00:00
 author: Sam
 categories: Life
 ---
-Often we look to the great heroes of our time for inspiration, and undeniably, Nelson Mandela is a hero among such heroes. The Economist, a magazine that often reserves a one page obituary, dedicated three pages to commemorate Mandela&#8217;s lifelong fight against an unacceptable model of racial segregation that was the Apartheid in their December 14-20th issue.
+Often we look to the great heroes of our time for inspiration, and undeniably, Nelson Mandela is a hero among such heroes. The Economist, a magazine that often reserves a one page obituary, dedicated three pages to commemorate Mandela's lifelong fight against an unacceptable model of racial segregation that was the Apartheid in their December 14-20th issue.
 
 However, the obituary also chronicled Mandela's three marriages (2 failed).  Politics, his first wife Evelyn said, was his  all-absorbing concern. Winnie, his second wife, remarked that Mandela, belongs to them [the people]. Even the great father of South Africa himself confessed that his children told him once that he was:
 
