@@ -1,3 +1,4 @@
 name: Sam Ip, Technology lawyer
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+theme: minima
