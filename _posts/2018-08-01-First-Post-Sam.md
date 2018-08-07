@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "First Post Using Jekyll!"
+title: "Jekyll: Does One Thing Extremely Well"
 date: 2018-08-01
 ---
-I've been burning the midnight oil setting up [Jekyll](www.jekyllrb.com), having used Wordpress for the past several years, and I'm in *love*.  There's something about the sweet simplicity of drafting blog posts in a word editor, with no frills.  Don't need to deal with the complexity of a content management system and getting back to the basics.
+I've been completely taken in by [Jekyll](www.jekyllrb.com), a simple static blogging utility after having used Wordpress for the past several years, and I'm in *love*. Sure, there are plenty of online content management systems that have a thousand bells and whistles, but how many of those features does the average user actually use?  Not many, I'll bet.
 
-Like most things in life, blogging software doesn't need to do 100 things well with a thousand more bells and whistles - it just needs to do one thing better than every other software, and that's to blog. 
+There's sweet simplicity in doing one thing, and doing it simply and extremely well.
