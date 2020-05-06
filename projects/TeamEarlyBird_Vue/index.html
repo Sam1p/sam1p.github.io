@@ -1,62 +1,138 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
-</head>
-<body>
-  <div id="app">
-    <v-app>
-      <v-content>
-        <v-container>Team Earlybird</v-container>
-        <v-container>Core Members of Team Earlybird</v-container>
-      </v-content>
-      <v-container>
-        <v-layout ro
-        w>
-          <v-flex md2>
-           <v-card dark tile flat color="error">
-            <v-card-title>First Bird</v-card-title>
-             <v-card-text>Image to be Inserted</v-card-text>
-           </v-card>
-          </v-flex>
-            <v-flex md6>
-            <v-card dark tile flat color="pink darken-4">
-              <v-card-title>Ryan D'Souza/v-card-title>
-              <v-card-text>Full-stack developer.</v-card-text>
-              </v-card>
-            </v-flex>
-        </v-layout row>
-        <v-layout row>
-            <v-flex md2>
-              <v-card dark tile flat color="error">Early Bird</v-card>
-            </v-flex>
-            <v-flex md6>
-              <v-card-text dark tile flat color = "pink darken-4">
-                  Sam Ip
-              </v-card-text>  
-            </v-flex>
-        </v-layout row>
-        </v-layout>
-      </v-container>
-      <v-container>
-        <v-btn color="info">Contact us</v-btn>
-      </v-container>
-    </v-app>
-  </div>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css"
+      rel="stylesheet"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+    />
+  </head>
 
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+  <body>
+    <div id="app">
+      <v-app>
+        <v-content>
+          <v-container>
+            <span class="display-2 font-weight-medium ">Team Early Bird</span>
+            <span class="subtitle-2">Getting That Worm Since 2017</span>
+          </v-container>
+          <v-container>
+            <span class="body-1 font-regular">
+              Core members of Team Earlybird that formed back in 2017 while working together at a Bay Street law fim.
+            </span>
+          </v-container>
 
-  <script>
-    new Vue({
-      el: '#app',
-      vuetify: new Vuetify(),
-    })
-  </script>
+          <v-container>
+            <v-layout row wrap justify-space-around>
+              <v-col cols="3">
+                <v-flex md3>
+                  <v-card dark color="pink darken-4">
+                    <v-img
+                      class="white--text align-end"
+                      height="200px"
+                      src="https://i.pinimg.com/originals/48/7d/cc/487dccfd54aeba36db30de662f25ea30.jpg"
+                    >
+                      <v-card-title>First Bird</v-card-title>
+                    </v-img>
+                    <v-card-title>Ryan D'Souza</v-card-title>
+                    <v-card-subtitle>Development Lead</v-card-subtitle>
+                    <v-card-text
+                      >Ryan leads the team's software development
+                      efforts.</v-card-text
+                    >
+                  </v-card>
+                </v-flex>
+              </v-col>
+              <v-col cols="3">
+                <v-flex md3>
+                  <v-card>
+                    <v-img
+                      class="white--text align-end"
+                      height="200px"
+                      src="https://www.allaboutbirds.org/guide/assets/photo/59859171-480px.jpg"
+                    >
+                      <v-card-title>Morning Bird</v-card-title>
+                    </v-img>
+                    <v-card-title>Sam Ip</v-card-title>
+                    <v-card-subtitle>Product Marketing </v-card-subtitle>
+                    <v-card-text>Lawyer by day, Sam loves working with the team to try new ideas.</v-card-text
+      >
+                  </v-card>
+                </v-flex>
+              </v-col>
+              <v-col cols="3">
+                <v-flex md3>
+                  <v-card dark color="teal">
+                    <v-img
+                      class="white--text align-end"
+                      height="200px"
+                      src="data:image/jpeg;base64,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"
+                    >
+                      <v-card-title>Third Bird</v-card-title>
+                    </v-img>
+                    <v-card-title>Chris Aranadi</v-card-title>
+                    <v-card-subtitle>Full-Stack Developer</v-card-subtitle>
+                    <v-card-text>Passionate about tech, Chris is always up to crack difficult technical problems.</v-card-text>
+                  </v-card>
+                </v-flex>
+              </v-col>
+            </v-layout>
+          </v-container>
 
-  Thank you for visiting.
-</body>
-Hello world
+          <v-divider></v-divider>
+
+          <v-container>
+            <span class="body-1 font-regular">
+              Participation and Accolades:
+            </span>
+            <v-list-item two-line>
+              <v-list-item-content>
+                <v-list-item-title
+                  >Global Legal Hackathon 2018</v-list-item-title
+                >
+                <v-list-item-subtitle
+                  >Third Place Finish with iConsent</v-list-item-subtitle
+                >
+              </v-list-item-content>
+            </v-list-item>
+            <v-list-item two-line>
+              <v-list-item-content>
+                <v-list-item-title
+                  >Genesys Hackathon Toronto 2019</v-list-item-title
+                >
+                <v-list-item-subtitle
+                  >First Place Finish with Prince Farming</v-list-item-subtitle
+                >
+              </v-list-item-content>
+            </v-list-item>
+          </v-container>
+
+          <v-container>
+            <v-btn color="info">Contact us</v-btn>
+          </v-container>
+        </v-content>
+      </v-app>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+
+    <script>
+      new Vue({
+        el: "#app",
+        vuetify: new Vuetify()
+      });
+    </script>
+  </body>
+</html>
