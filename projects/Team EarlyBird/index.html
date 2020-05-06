@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+  <div id="app">
+    <v-app>
+      <v-content>
+        <v-container>Team Earlybird</v-container>
+        <v-container>Core Members of Team Earlybird</v-container>
+      </v-content>
+      <v-container>
+        <v-layout row>
+          <v-flex md2>
+           <v-card dark tile flat color="error">
+             <v-card-text>First Bird</v-card-text>
+           </v-card>
+          </v-flex>
+            <v-flex md6>
+            <v-card dark tile flat color="pink darken-4">
+              <v-card-text>Ryan D'Souza</v-card-text>
+              </v-card>
+            </v-flex>
+        </v-layout row>
+        <v-layout row>
+            <v-flex md2>
+              <v-card dark tile flat color="error">Early Bird</v-card>
+            </v-flex>
+            <v-flex md6>
+              <v-card-text dark tile flat color = "pink darken-4">
+                  Sam Ip
+              </v-card-text>  
+            </v-flex>
+        </v-layout row>
+        </v-layout>
+      </v-container>
+    </v-app>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+
+  <script>
+    new Vue({
+      el: '#app',
+      vuetify: new Vuetify(),
+    })
+  </script>
+
+  Thank you for visiting.
+</body>
+Hello world
